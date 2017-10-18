@@ -3,6 +3,7 @@ package main
 import (
 	"crypto/dsa"
 	"crypto/rand"
+	"crypto/sha1"
 	"fmt"
 )
 
@@ -14,9 +15,11 @@ func main() {
 	fmt.Println(sk.X)
 	fmt.Println(sk.PublicKey.Y)
 
-	r, s, _ := dsa.Sign(rand.Reader, &sk, []byte("p1gd0g"))
+	h := sha1.New().Sum([]byte("Hello world!"))
+
+	r, s, _ := dsa.Sign(rand.Reader, &sk, h)
 
 	fmt.Println(r, s)
 
-	fmt.Println(dsa.Verify(&sk.PublicKey, []byte("p1gd0g"), r, s))
+	fmt.Println(dsa.Verify(&sk.PublicKey, h, r, s))
 }
