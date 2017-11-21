@@ -16,13 +16,13 @@ GIVEN: a account $(p,P)$, 3 user $(x_1,X_1)$, $(x_2,X_2)$, $(x_3,X_3)$. Where $X
 
 6. Randomly choose scalar $s_i$ for $i\neq s$, compute:
 
-$$L_s=uG, R_s=uH_p(P_s), c_{s+1}=H_s(m,L_s,R_s)$$
+$L_s=uG, R_s=uH_p(P_s), c_{s+1}=H_s(m,L_s,R_s)$
 
-$$L_{s+1}=s_{s+1}G+c_{s+1}P_{s+1}, R_{s+1}=s_{s+1}H_p(P_{s+1}), c_{s+2}=H_s(m,L_{s+1},R_{s+1})$$
+$L_{s+1}=s_{s+1}G+c_{s+1}P_{s+1}, R_{s+1}=s_{s+1}H_p(P_{s+1}), c_{s+2}=H_s(m,L_{s+1},R_{s+1})$
 
 ...
 
-$$L_{s-1},R_{s-1},c_s$$
+$L_{s-1},R_{s-1},c_s$
 
 7. Every user computes $s_{s,1}=u_1-c_sb_1$, $s_{s,2}$ and $s_{s,3}$, which are shared.
 
