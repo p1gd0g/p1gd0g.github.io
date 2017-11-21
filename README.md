@@ -6,6 +6,6 @@
 
 * [Linux终端彩色字体](/003Linux终端彩色字体/003Linux终端彩色字体.md)
 
-* [VPS间接下载](/002VPS间接下载/002VPS间接下载.md)
+* [利用VPS间接下载](/002VPS间接下载/002VPS间接下载.md)
 
 * [MoneroRangeProof](/001RangeProof/001RangeProof.pdf)
