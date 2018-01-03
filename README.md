@@ -1,6 +1,4 @@
-# 博客
-
-记录一些琐碎的知识。
+# Blog
 
 4\. [Monero Multisig](/004Multisig/004Multisig.md)
 
