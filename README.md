@@ -2,10 +2,10 @@
 
 记录一些琐碎的知识。
 
-4\. [Monero 门限多签交易](/004Multisig/004Multisig.md)
+4\. [Monero Multisig](/004Multisig/004Multisig.md)
 
-3\. [Linux 终端彩色字体](/003Linux终端彩色字体/003Linux终端彩色字体.md)
+3\. [Linux Color Output](/003LinuxColorOutput/003LinuxColorOutput.md)
 
-2\. [利用 VPS 间接下载](/002VPS间接下载/002VPS间接下载.md)
+2\. [VPS Download](/002VPSDownload/002VPSDownload.md)
 
 1\. [Monero Range Proof](/001RangeProof/001RangeProof.md)
