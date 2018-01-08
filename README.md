@@ -1,6 +1,6 @@
 # Blog
 
-5\. [Traceable Ring Signature](/005TraceableRingSignature.md)
+5\. [Traceable Ring Signature](/005TraceableRingSignature/005TraceableRingSignature.md)
 
 4\. [Monero Multisig](/004Multisig/004Multisig.md)
 
