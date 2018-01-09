@@ -40,4 +40,4 @@ To check the relation between $(m,\sigma)$ and $(m',\sigma')$, with respect to t
 
 1. For all $i\in N$, if $\sigma_i=\sigma_i'$, store $pk_i$ in $\textbf{List}$.
 
-1. Output $pk$ if $pk$ is the only entry in $\textbf{List}$; "linked" else if $\textbf{List}=pk_N$;; "indep" otherwise.
+1. Output $pk$ if $pk$ is the only entry in $\textbf{List}$; "linked" else if $\textbf{List}=pk_N$; "indep" otherwise.
