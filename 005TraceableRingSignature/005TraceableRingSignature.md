@@ -1,4 +1,4 @@
-# Traceable Ring signature
+# Traceable Ring Signature
 
 ## Sign
 
@@ -34,3 +34,10 @@ To verify signature $\sigma=(A_1,c_N,r_N)$ on message $m$ with respect to tag $L
 
 ## Trace
 
+To check the relation between $(m,\sigma)$ and $(m',\sigma')$, with respect to the same tag $L$ where $\sigma=(A_1,c_N,r_N)$ and $\sigma'=(A_1',c_N',r_N')$, check the following:
+
+1. Parse $L$ as $(issue,pk_N)$. Set $h=(L)$ and $A_0=H'(L,m)$, and compute $\sigma_i=A_0A_1^i\in G$ for all $(i\in N)$.
+
+1. For all $i\in N$, if $\sigma_i=\sigma_i'$, store $pk_i$ in $\textbf{List}$.
+
+1. Output $pk$ if $pk$ is the only entry in $\textbf{List}; "linked" else if $\textbf{List}=pk_N$;; "indep" otherwise.
