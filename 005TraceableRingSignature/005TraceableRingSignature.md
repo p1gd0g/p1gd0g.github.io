@@ -6,7 +6,7 @@ To sign message $m\in \{0,1\}^*$ with respect to tag $L=(issue,pk_N)$, using the
 
 1. Compute $h=H(L)$ and $\sigma_s=h^{x_s}$, using $x_s\in \mathbb{Z}_q$.
 
-1. Set $A_0=H'(L,m)$ and $A_1=(\frac{\sigma_s}{A_0})^{1/i}$.
+1. Set $A_0=H'(L,m)$ and $A_1=(\frac{\sigma_s}{A_0})^{1/s}$.
 
 1. For all $i\neq s$, compute $\sigma_i=A_0A_1^i\in G$.
 
@@ -30,7 +30,7 @@ To verify signature $\sigma=(A_1,c_N,r_N)$ on message $m$ with respect to tag $L
 
 1. Compute $L_i=g^{r_i}y_i^{c_i}$ and $R_i=h^{r_i}\sigma_i^{c_i}$ for all $i\in N$.
 
-1. Check that $H{''}(L,m,A_0,A_1,L_N,R_N)\equiv \sum_{i\in N}c_i$.
+1. Check that $H^{\prime\prime}(L,m,A_0,A_1,L_N,R_N)\equiv \sum_{i\in N}c_i$.
 
 ## Trace
 
