@@ -2,7 +2,7 @@
 
 ## Sign
 
-To sign message $m\in \{0,1\}^*$ with respect to tag $L=(issue,pk_N)$, using the secret-key $sk_s$, preceed as follows:
+To sign message $m\in \left\lbrace 0,1\right\rbrace^*$ with respect to tag $L=(issue,pk_N)$, using the secret-key $sk_s$, preceed as follows:
 
 1. Compute $h=H(L)$ and $\sigma_s=h^{x_s}$, using $x_s\in \mathbb{Z}_q$.
 
