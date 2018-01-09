@@ -14,9 +14,9 @@ To sign message $m\in \{0,1\}^*$ with respect to tag $L=(issue,pk_N)$, using the
 
     1. Pick up random $\alpha\leftarrow \mathbb{Z}_q$ and set $L_s=g^{\alpha}, R_s=h^\alpha\in G$.
 
-    1. Pick up at random $r_i,c_i\leftarrow \mathbb{Z}_q$, and set $R_i=g^{r_i}y_i^{c_i}, R_i=h^{r_i}\sigma_i^{c_i}\in G$ for every $i\neq s$.
+    1. Pick up at random $r_i,c_i\leftarrow \mathbb{Z}_q$, and set $L_i=g^{r_i}y_i^{c_i}, R_i=h^{r_i}\sigma_i^{c_i}\in G$ for every $i\neq s$.
 
-    1. Set $c=H''(L,A_0,A_1,L_N,R_N)$.
+    1. Set $c=H^{\prime\prime}(L,A_0,A_1,L_N,R_N)$.
 
     1. Set $c_s=c-\sum_{i\neq s}c_i$ and $r_s=\alpha-c_sx_s$.
 
@@ -30,7 +30,7 @@ To verify signature $\sigma=(A_1,c_N,r_N)$ on message $m$ with respect to tag $L
 
 1. Compute $L_i=g^{r_i}y_i^{c_i}$ and $R_i=h^{r_i}\sigma_i^{c_i}$ for all $i\in N$.
 
-1. Check that $H''(L,m,A_0,A_1,L_N,R_N)\equiv \sum_{i\in N}c_i$.
+1. Check that $H{''}(L,m,A_0,A_1,L_N,R_N)\equiv \sum_{i\in N}c_i$.
 
 ## Trace
 
