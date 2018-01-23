@@ -1,0 +1,33 @@
+# Simple Schnorr Multi-Signatures
+
+## Key Generation
+
+Every signer generates a key pair $(x_i,X_i)=(x_i,g^{x_i})$, set $L=\lbrace X_1,X_2,...X_n\rbrace$.
+
+## Sign
+
+1. Every signer computes $a_i=H_0(L,X_i)$.
+
+1. Aggregated public key $\widetilde{X}=\prod_{i=1}^{n}X_i^{a_i}$.
+
+1. Every signer generates a radom $r_i$ and computes $R_i=g^{r_i}$.
+
+1. Specific signer computes:
+
+    1. $R=\sum_{i=1}^{n}R_i$.
+
+    1. $c=H_1(\widetilde{X},R,m)$.
+
+    1. $s_1=r_1+ca_1x_1 \text{ mod } p$.
+
+1. Specific signer computes $s=\sum_{i=1}^ns_i \text{ mod }p$.
+
+1. Output $\sigma=(R,s)$.
+
+## Verify
+
+1. Computes $a_i=H_0(L,X_i)$.
+
+1. Computes $c=H_1(\widetilde{X},R,m)$.
+
+1. Accepts if $g^s=R\prod_{i=1}^nX_i^{a_ic}=R\widetilde{X}^c$.
