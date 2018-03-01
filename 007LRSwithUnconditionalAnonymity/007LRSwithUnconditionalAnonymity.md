@@ -13,3 +13,9 @@
 1. Find $c_s$ such that $c_1+...+c_n$ mod $p$ $=H'(\mathcal{Y},event,t,M,K,K')$.
 
 1. Compute $\tilde{x}=r_x-c_sx$ mod $p$, $\tilde{y}=r_y-c_s$ mod $p$.
+
+## Verify
+
+On input $(event,\mathcal{Y},M,\sigma)$, first compute $e=H(event)$ and $c_0$.
+
+Then check $\sum_{i=1}^nc_i$ mod $p=c_0$.
