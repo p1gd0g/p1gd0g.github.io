@@ -16,6 +16,6 @@
 
 ## Verify
 
-On input $(event,\mathcal{Y},M,\sigma)$, first compute $e=H(event)$ and $c_0$.
+1. On input $(event,\mathcal{Y},M,\sigma)$, first compute $e=H(event)$ and $c_0$.
 
-Then check $\sum_{i=1}^nc_i$ mod $p=c_0$.
+1. Then check $\sum_{i=1}^nc_i$ mod $p=c_0$.
