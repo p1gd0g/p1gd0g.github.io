@@ -10,6 +10,6 @@
 
     1. $K'=e^{r_x}t^{\sum_{i=1,i\neq s}^nc_i}$.
 
-1. Find $c_s$ such that $c_1+...+c_n$ mod $p=H'(\mathcal{Y}||event||t||M||K||K')$.
+1. Find $c_s$ such that $c_1+...+c_n$ mod $p$ $=H'(\mathcal{Y}||event||t||M||K||K')$.
 
 1. Compute $\tilde{x}=r_x-c_sx$ mod $p$, $\tilde{y}=r_y-c_s$ mod $p$.
