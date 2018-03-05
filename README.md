@@ -1,5 +1,7 @@
 # Blog
 
+* [Efficient Linkable Ring Signature](/008EfficientLinkableRingSignature/008EfficientLinkableRingSignature.md)
+
 * [Linkable Ring Signature with Unconditional Anonymity](/007LRSwithUnconditionalAnonymity/007LRSwithUnconditionalAnonymity.md)
 
 * [Simple Schnorr Multi-Signatures](/006SimpleSchnorrMulti-Signatures/006SimpleSchnorrMulti-Signatures.md)
