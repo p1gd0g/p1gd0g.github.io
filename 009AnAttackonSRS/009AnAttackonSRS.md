@@ -13,8 +13,11 @@ $$e(A_1,T_1)e(A_2,T_2)=e(P,g_2)$$
 Then we attack two public keys $(A_3,A_4)$.
 
 $$A_1'=A_1A_4/A_3$$
+
 $$A_2'=A_2A_4/A_3$$
+
 $$e(A_1'A_3/A_4,T_1)e(A_2'A_3/A_4,T_2)=e(P,g_2)$$
+
 $$e(A_1',T_1)e(A_2',T_2)e(A_3,T_1T_2)e(A_4,1/T_1T_2)=e(P,g_2)$$
 
 We output a "valid" signature: $(P,T_1,T_2,T_3=T_1T_2,T_3=1/T_1T_2)$.
