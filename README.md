@@ -1,5 +1,7 @@
 # Blog
 
+* [An Attack on SRS in the standard model](/009AnAttackonSRS/009AnAttackonSRS.md)
+
 * [Efficient Linkable Ring Signature](/008EfficientLinkableRingSignature/008EfficientLinkableRingSignature.md)
 
 * [Linkable Ring Signature with Unconditional Anonymity](/007LRSwithUnconditionalAnonymity/007LRSwithUnconditionalAnonymity.md)
