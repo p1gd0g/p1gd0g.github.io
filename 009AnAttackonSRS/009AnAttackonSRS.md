@@ -20,7 +20,7 @@ $$e(A_1'A_3/A_4,T_1)e(A_2'A_3/A_4,T_2)=e(P,g_2)$$
 
 $$e(A_1',T_1)e(A_2',T_2)e(A_3,T_1T_2)e(A_4,1/T_1T_2)=e(P,g_2)$$
 
-We output a "valid" signature: $(P,T_1,T_2,T_3=T_1T_2,T_3=1/T_1T_2)$.
+We output a "valid" signature: $(P,T_1,T_2,T_3=T_1T_2,T_4=1/T_1T_2)$.
 
 ---
 
