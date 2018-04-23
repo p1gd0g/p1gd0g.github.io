@@ -35,4 +35,4 @@ which means the real crs in the NIZK is defined by every member of the ring. The
 
 Assume you find correct $C_i$ with negligible probability, you could not generate the correct $y$.
 
-In summary, you should consider the whole ring signatuer but not the NIZK arguments of knowledge only. The NIZK is a independent as well as its security.
+In summary, you should consider the whole ring signatuer but not the NIZK arguments of knowledge only. The NIZK is independent as well as its security.
