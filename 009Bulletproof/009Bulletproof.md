@@ -56,5 +56,4 @@ $$P=A\cdot S^x\cdot\mathbf{g}^{-z}\cdot(\mathbf{h}')^{z\cdot\mathbf{y}^n+z^2\cdo
 
 $$P\overset{?}{=}h^\mu\cdot\mathbf{g}^{\mathbf{l}}\cdot(\mathbf{h}')^{\mathbf{r}}$$
 
-
 $$\hat{t}\overset{?}{=}\langle\mathbf{l},\mathbf{r}\rangle$$
