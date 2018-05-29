@@ -1,6 +1,6 @@
 # Blog
 
-* [Bulletproof](/009Bulletproof/009Bulletproof.md)
+* [Bulletproofs](/009Bulletproof/009Bulletproof.md)
 
 * [Efficient Linkable Ring Signature](/008EfficientLinkableRingSignature/008EfficientLinkableRingSignature.md)
 

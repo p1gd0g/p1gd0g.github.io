@@ -1,4 +1,4 @@
-# Bulletproof
+# Bulletproofs
 
 ## Linear Range Proof
 
