@@ -44,7 +44,7 @@ $$\tau_x=\tau_2\cdot x^2+\tau_1\cdot x+z^2\cdot\gamma$$
 
 $$\mu=\alpha+\rho\cdot x$$
 
-where $\mathbf{s}_\ast\in\mathbb{Z}_p$ are used to blind $\mathbf{a}_\ast$. Pvover sends $\tau_x,\mu,\hat{t},\mathbf{l},\mathbf{r}$ to verifier.
+where $\mathbf{s}\in\mathbb{Z}_p$ are used to blind $\mathbf{a}$. Pvover sends $\tau_x,\mu,\hat{t},\mathbf{l},\mathbf{r}$ to verifier.
 
 Verifier checks
 
