@@ -1,21 +1,21 @@
 # Blog
 
-* [Go Get Proxy](/010GoGetProxy/010GoGetproxy.md)
+* [How to Set Proxy for "go get"?](/10/10.md)
 
-* [Bulletproofs](/009Bulletproof/009Bulletproof.md)
+* [Bulletproofs](/9/9.md)
 
-* [Efficient Linkable Ring Signature](/008EfficientLinkableRingSignature/008EfficientLinkableRingSignature.md)
+* [Efficient Linkable Ring Signature](/8/8.md)
 
-* [Linkable Ring Signature with Unconditional Anonymity](/007LRSwithUnconditionalAnonymity/007LRSwithUnconditionalAnonymity.md)
+* [Linkable Ring Signature with Unconditional Anonymity](/7/7.md)
 
-* [Simple Schnorr Multi-Signatures](/006SimpleSchnorrMulti-Signatures/006SimpleSchnorrMulti-Signatures.md)
+* [Simple Schnorr Multi-Signature](/6/6.md)
 
-* [Traceable Ring Signature](/005TraceableRingSignature/005TraceableRingSignature.md)
+* [Traceable Ring Signature](/5/5.md)
 
-* [Monero Multisig](/004Multisig/004Multisig.md)
+* [Monero's Multisig](/4/4.md)
 
-* [Linux Color Output](/003LinuxColorOutput/003LinuxColorOutput.md)
+* [Output Colored Words in Linux](/3/3.md)
 
-* [VPS Download](/002VPSDownload/002VPSDownload.md)
+* [VPS Download](/2/2.md)
 
-* [Monero Range Proof](/001RangeProof/001RangeProof.md)
+* [Monero's Range Proof Protocol](/1/1.md)
