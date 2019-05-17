@@ -1,5 +1,7 @@
 # Blog
 
+* [Go Get Proxy](/010GoGetProxy/010GoGetproxy.md)
+
 * [Bulletproofs](/009Bulletproof/009Bulletproof.md)
 
 * [Efficient Linkable Ring Signature](/008EfficientLinkableRingSignature/008EfficientLinkableRingSignature.md)
